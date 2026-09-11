@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "rockymacasio", "url": "http://github.com/rockymacasio" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
+      { "network": "linkedin", "username": "rockymacasio", "url": "https://www.linkedin.com/in/rocky-matthew-acasio-05194a431/" },
     ]
   },
   "interests": [
@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Eclipse IDE", "Git/GitHub", "g++" ]
     }
   ],
   "education": [
@@ -43,17 +43,32 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "UH Manoa Center for Instructional Support",
+      "position": "Multimedia Technician I",
+      "website": "https://www.cis.hawaii.edu/",
+      "startDate": "2026-03-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Currently working as a student employee to assist with the CIS department on-campus.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Provided customer-facing support for faculty, staff, and clients",
+        "Communicated professionally with clients through email and in-person support",
+        "Troubleshoot AV equipment in classrooms and for clients"
       ]
     },
+    {
+      "company": "Target Corporation",
+      "position": "Food and Beverage Specialist",
+      "website": "http://www.target.com",
+      "startDate": "2026-06-30",
+      "endDate": "2026-08-17",
+      "summary": "Worked as a Seasonal Hire to assist the Food and Beverage department in Kailua-Kona.",
+      "highlights": [
+        "Provided friendly and efficient guest service while assisting guests",
+        "Followed food safety, sanitation, and proper product-handling procedures",
+        "Worked efficiently with team members to replenish inventory and complete daily tasks in a fast-paced retail environment"
+      ]
+    },
+
     {
       "company": "UH Information Technology Services",
       "position": "Help Desk Consultant",
