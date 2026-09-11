@@ -10,6 +10,8 @@ labels:
   - Communication
 ---
 
+<img width="600px" class="img-fluid" src="../img/smart-questions.jpg">
+
 Asking good questions is actually a pretty important skill in software engineering because there are going to be a lot of times where you get stuck and need help from someone else. After reading about asking questions the “smart way,” I realized that how you ask a question can make a big difference in the kind of help you get. Instead of just saying that something does not work, it is better to explain what you are trying to do, what you already tried, and what error you are getting. This makes it easier for other programmers to understand the problem without having to guess what is going on.
 
 A good example of asking a smart question is the Stack Overflow post [“Typescript type casting not working”](https://stackoverflow.com/questions/34032303/typescript-type-casting-not-working). In the post, the person explains that they are new to TypeScript and that they were following an example from a TypeScript book. They show the exact example from the book, the code they tried themselves, and the compiler error that they received. They then ask whether they are doing the cast wrong or whether TypeScript had changed since the book was published. I think this is a good example because the person gives enough information for someone else to understand the issue without needing to ask a lot of extra questions. The responses were also useful because people were able to explain that `int` was no longer the correct type and that `number` should be used instead. Other answers also explained that simply casting the value was not really converting the string into a number, and suggested methods such as `parseInt()` instead.
