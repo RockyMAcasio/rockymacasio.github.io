@@ -70,57 +70,60 @@
     },
 
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Four Seasons Hualalai",
+      "position": "IT Clerk Intern",
+      "website": "https://www.fourseasons.com/hualalai/",
+      "startDate": "2025-06-01,
+      "endDate": "2025-08-10",
+      "summary": "Worked as a Summer intern to help the IT department at Four Seasons.",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Manage and organize data on spreadsheets",
+        "Assisted guests with technical and service-related issues in a luxury resort environment",
+        "Labor to organize hardware and e-waste"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Konawaena LEO Club",
+      "website": "",
+      "position": "Member",
+      "startDate": "2022",
+      "endDate": "2024",
+      "summary": "Participated in several community service projects such as:",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Helping clean up and weed at the Konawaena Elementary School",
+        "Gift wrapping presents for free for at Walmart",
+        "A multitude of clean-ups around Kailua-Kona"
       ]
     },
     {
       "organization": "",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
+      "position": "Volunteer for UH Aloha Bash",
+      "startDate": "2026-04-01",
       "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Greeting and asking questions to guests",
+        "Pass out water to those who need it",
+        "Organize and help clean up trash after the venue"
+
       ]
     }
   ],
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2024-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Hualalai Scholar",
+      "date": "2024",
+      "awarder": "Four Seasons Hualalai Ohana Foundation",
+      "summary": "Myself and 2 other candidates were finalists for the Hualalai Scholarship program."
     }
   ],
   "references": [
