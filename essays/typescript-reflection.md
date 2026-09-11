@@ -10,6 +10,8 @@ labels:
   - Learning
 ---
 
+<img class="img-fluid" src="../img/typescript.png">
+
 So far, I think TypeScript has been pretty interesting to learn. I already knew some Java before this, so I was not completely new to programming. A lot of the ideas were familiar, like classes, methods, variables, and loops, but the syntax still felt different and kind of confusing at first. It reminded me of when I first learned Java because I struggled with the syntax in the beginning, but after using it more, I eventually got used to it.
 
 One thing I learned more about was how TypeScript uses classes and objects, especially things like this, constructors, and different methods. I also got more practice with arrays and Maps and methods like get(), set(), and has(). At first, I had a hard time remembering which methods worked with which data types, but I feel like I understand that a lot better now. I used a decent amount of AI, mainly ChatGPT-5.6 Sol in order to help me to understand different methods.
