@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/pixel-dodge.png
 title: "Pixel Dodge"
-date: 2026-09-15
+date: 2026
 published: true
 labels:
   - TypeScript
@@ -60,4 +60,6 @@ and publishes it whenever I push changes to the main branch.
 ## Future improvements
 
 I would like to add walking animations, sound effects, and touch
-controls so the game can also be played on phones.
+controls so the game can also be played on phones. I would also work on
+newer levels and further twists to the games such as power-ups, and
+maybe even a story-line in the future. 
