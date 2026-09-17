@@ -2,29 +2,37 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "AP Drawing Portfolio"
+date: 2024
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Visual Arts
+  - Creativity
+summary: "A portfolio of the drawings I made for my AP Art class Portfolio."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+During AP Drawing class, we were instructed to create a sustained investigation of a topic of our choice, creating artwork that reflects the idea
+of our chosen topic. The topic that I chose for this portfolio was “How can I portray the exploration of the stages of heartbreak through various
+self-portraits?” With my investigation, I want others to visualize the journey someone like myself would go through and help people understand the  
+psychological aspects of heartbreak. Therefore, most of the works shown in this section might not make sense without context.
 
-To give you a flavor of the game, here is an excerpt from one run:
+However, for this part specifically, I will be showcasing my Selected Works of my portfolio, which best showcase my ability to demonstrate 
+proficiency in art while maintaining a boundary between realism and abstraction. This portfolio comes from 2024 which was my most active year for drawing.
 
-<hr>
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+
+<img class="img-fluid" src="../img/cotton/cotton-header.png">
+
+## Drawing 1: Disillusioned
+
+For my first selected works is a piece I call "Disillusioned." Disillusioned refers to the 'feeling of being disappointed and unhappy because you
+have learned the truth about something or someone, realizing they are not as good or special as you once believed.' I interpreted this drawing as 
+being in a place that you thought you have been apart of for so long just to realize you were never meant to be here. The monotone color palette
+shows that my person has lost his color, as well as the background representing reality bending away because you were never meant to exist here
+in the first place that the space of time gets distorted.
+
 
 <--------------------help------------------------>
 Enter quit or one of the following commands -
