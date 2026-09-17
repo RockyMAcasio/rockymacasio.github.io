@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Typescript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Eclipse IDE", "Git/GitHub", "g++" ]
+      "keywords": [ "Eclipse IDE", "Git/GitHub", "g++" ]
     }
   ],
   "education": [
@@ -124,6 +124,13 @@
       "date": "2024",
       "awarder": "Four Seasons Hualalai Ohana Foundation",
       "summary": "Myself and 2 other candidates were finalists for the Hualalai Scholarship program."
+    }
+
+      {
+      "title": "Valedictorian",
+      "date": "2024",
+      "awarder": "Konawaena High School",
+      "summary": "Graduated as a Valedictorian/Top 10 for the Class of 2024."
     }
   ],
   "references": [
