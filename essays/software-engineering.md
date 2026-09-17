@@ -11,6 +11,9 @@ labels:
   - Typescript
 ---
 
+<img class="img-fluid" src="../img/software_engineering.png">
+
+
 ## Software Engineering? What is That?
 
 Before taking this class, Software Engineering I, I didn't know what to expect of it. I had no prior knowledge of how software engineering worked or
