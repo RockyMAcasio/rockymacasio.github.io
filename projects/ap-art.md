@@ -55,7 +55,7 @@ Mediums used: Prismacolor colored pencils, graphite pen, sharpie marker on Strat
 
 After further look into my portfolio, I realize the number of errors and mistakes in my artwork presented. I realize that I need to manage my time
 more efficiently on my drawings, since I remember cramming most of them during the last weeks that my portfolio was due. Therefore there wasn't
-as much creativity for my art that I wish there could have been. I did end up receiving a 4 for my AP score, but I think with more refinement I could have gotten an A.
+as much creativity for my art that I wish there could have been. I did end up receiving a 4 for my AP score, but I think with more refinement I could have gotten a 5.
 
 
 
