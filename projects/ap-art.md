@@ -31,7 +31,7 @@ being in a place that you thought you have been apart of for so long just to rea
 shows that my person has lost his color, as well as the background representing reality bending away because you were never meant to exist here
 in the first place that the space of time gets distorted.
 
-<img class="img-fluid" src="../img/Depression2Final.png" alt="Depression2">
+<img class="img-fluid" src="../img/Depression2Final.jpg" alt="Depression2">
 ## Drawing 2: Depression
 
 For my second selected works is 
