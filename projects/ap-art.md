@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/ap-art.png
 title: "AP Drawing Portfolio"
 date: 2024
 published: true
@@ -11,7 +11,6 @@ labels:
 summary: "A portfolio of the drawings I made for my AP Art class Portfolio."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
 
 During AP Drawing class, we were instructed to create a sustained investigation of a topic of our choice, creating artwork that reflects the idea
 of our chosen topic. The topic that I chose for this portfolio was “How can I portray the exploration of the stages of heartbreak through various
@@ -23,8 +22,7 @@ proficiency in art while maintaining a boundary between realism and abstraction.
 
 
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
-
+<img class="img-fluid" src="../img/Disillusion.png" alt="Disillusion">
 ## Drawing 1: Disillusioned
 
 For my first selected works is a piece I call "Disillusioned." Disillusioned refers to the 'feeling of being disappointed and unhappy because you
@@ -33,35 +31,20 @@ being in a place that you thought you have been apart of for so long just to rea
 shows that my person has lost his color, as well as the background representing reality bending away because you were never meant to exist here
 in the first place that the space of time gets distorted.
 
+<img class="img-fluid" src="../img/Depression2Final.png" alt="Depression2">
+## Drawing 2: Depression
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+For my second selected works is 
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+<img class="img-fluid" src="../img/Acceptance1.png" alt="Acceptance">
+## Drawing 3: Acceptance
 
-pickup candle
-- you are now carrying the candle -
+For my third selected works
 
-pickup match
-- you are now carrying the match -
+## My Reflection
 
-light match candle
+After further look into my portfolio, I realize the number of errors and mistakes on my work that need more polishment and time to work on.
 
-The candle is now lit. It illuminates everything in the room.
 
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
 
-<hr>
 
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
