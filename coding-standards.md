@@ -1,14 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Coding Standards"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2026-09-24
+published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - VSCode
+  - Typescript
+  - ESLint
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
