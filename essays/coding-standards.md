@@ -11,7 +11,7 @@ labels:
   - ESLint
 ---
 
-<img width="300px" src="../img/vscode_funny.webp">
+<img src="../img/vscode_funny.webp">
 
 ## My Reflection
 
