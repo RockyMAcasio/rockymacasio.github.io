@@ -11,7 +11,7 @@ labels:
   - Bootstrap 5 
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/ui.webp">
+<img width="500px" height="500px" src="../img/ui.webp">
 
 # The Fun and Challenges of UI Frameworks
 
