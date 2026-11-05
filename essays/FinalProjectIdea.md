@@ -8,12 +8,11 @@ published: true
 labels:
   - Software Engineering
   - Nextjs
-  - AI Assistant
   - Campus Community
   - ICS 314
 ---
 
-## Project: Even Better ICS Advising (EBICSA)
+## Project: UH Botanical Finder (UHBNF)
 
 **Proposers:**
 
@@ -23,50 +22,45 @@ labels:
 
 ## Overview
 
-**The Problem:** ICS students have common advising questions, such as which courses satisfy a BS or BA requirement, what the prerequisites for a course are, and what to take next semester to have a minimum or max of X credits, but the answers are scattered across the UH catalog, the ICS department site, STAR, and the advising office. The existing UH site search returns pages rather than direct answers, and booking an appointment with advisors is usually too much work for the average student to undergo if they just want straightforward answers.
+**The Problem:** Students and visitors may walk past native Hawaiian flowers, shrubs, and trees on and around the UH Mānoa campus without knowing their names, why they matter, or where to find them again. Even when someone recognizes a plant and wants to grow it at home, it can be hard to know how much sunlight and water it needs or what kind of soil it grows best in.
 
-**The Solution:** A UHM web application/widget with a searchable directory of ICS courses and degree requirements, plus an AI chat assistant that answers advising, scheduling tips, and course credit questions using only that directory as its source of knowledge. Students log in, share their completed courses, intended track, and scheduling preferences, and ask questions such as "What can I take next semester?" or "Give me 12 credits, mostly online, nothing before 10 a.m." Every answer cites the course or requirement entry it came from, and schedule answers are shown on a weekly grid.
+**The Solution:** A web application with an interactive campus map and a searchable guide to native Hawaiian plants. Users can explore gardens and plant locations on and near campus, then open a plant profile to see photos, Hawaiian and scientific names, and a short explanation of the plant’s ecological or cultural significance. Each profile includes guidance on sunlight, watering, and soil. A student who spots a flower on the way to class can use the map to see what grows nearby, compare photos, and learn how to care for the plant at home.
 
 ## Approach
 
-The site will use Next.js, React, Bootstrap 5, Prisma with PostgreSQL, and GitHub. Unauthenticated visitors can browse the course directory and FAQ and use the chat assistant. After logging in, students set up a profile with their completed ICS courses and intended track (BS or BA). The assistant then uses that profile to personalize answers. Future milestones could have students save chat history, bookmark answers, and rate each answer thumbs up or down to help improve the quality of answers given by the AI Assistant.
+The site will use Next.js, React, Bootstrap 5, Prisma with PostgreSQL, and GitHub. The directory will use Bootstrap cards and filters to make plants easy to browse on a phone while walking around campus. Prisma will store plant profiles, observation locations, and user bookmarks. Each plant can appear at multiple locations, so admins can update its care instructions in one place.
 
-The knowledge base will contain every ICS course (number, title, credits, prerequisites, semesters offered, and which requirement it satisfies), the BS and BA requirement sheets, and FAQ entries written from the ICS advising pages. When a student asks a question, the site searches this data for the most relevant courses and FAQ entries, sends them to an LLM API (Gemini or Groq) as context, and displays the reply with links to the entries it used. If nothing relevant is found, the assistant says so and directs the student to the ICS advising office rather than hallucinating answers.
+The project builds on the List Stuff, Add Stuff, and Edit Stuff pages from our ICS 314 Next.js exercises. We’ll adapt those patterns for the plant directory and admin forms, then use Playwright to test common actions such as searching for a plant, opening its profile, and editing a plant entry as an admin.
 
-Admins maintain the knowledge base through a portal, where they add and edit courses, requirements, and FAQ entries, and possibly review questions that received low ratings or no answer so the content can be improved in the last milestone.
+For the first version, we’ll start with a small set of plants whose campus locations we can verify. Each profile will include a photo, plant names, care guidance, and links to the sources used. Visitors can browse the directory and map without logging in. Users who sign in can save plants they want to find or grow later.
 
 ## Roles
 
-- **Users:** Browse the course directory and FAQ, ask the assistant questions, maintain a profile of completed courses, track, credit target, and scheduling preferences, generate and save candidate schedules, bookmark answers, and rate or flag answers.
-- **Admins:** Have all user privileges and add, edit, or retire courses, requirements, sections, and FAQ entries; review low-rated and unanswered questions; and grant the admin role to other users.
+- **Visitors:** Browse the map and plant directory, search and filter plants, and read plant profiles without an account.
+- **Registered Users:** Save plants to a favorites list and return to their profiles for locations and care instructions.
+- **Admins:** Add and edit plant profiles, update photos and source links, and manage plant locations on the map.
 
 ## Mockup Page Ideas
 
-- **Landing Page:** Introduces the site with a sample question and answer, a course search bar, and options to log in or register.
-- **Course Directory Page:** Provides a searchable, filterable list of ICS courses by level, semester offered, and requirement satisfied.
-- **Course Detail Page:** Shows credits, prerequisites, semesters offered, the requirement it satisfies, and related FAQ entries.
-- **Chat Assistant Widget:** A pop-up available on every page that returns cited answers, suggested follow-up questions, and a thumbs up/down control.
-- **Schedule Builder Page:** A form for credit target, modality, and free times that produces ranked, conflict-free schedules displayed on a weekly grid; the assistant uses this same page to show its results.
-- **User Home Page:** Displays the logged-in user's completed courses, intended track, saved chats, and bookmarked answers.
-- **Admin Home Page:** Serves as a maintenance portal where admins manage courses, requirements, and FAQ entries and review low-rated or unanswered questions.
-- **Help Page:** Explains how to use the site and what the assistant can and cannot answer.
+- **Landing Page:** Introduces the guide and gives users two ways to start exploring, through the plant directory or the campus map.
+- **Plant Directory:** Displays plant cards with photos and names. Users can search by Hawaiian or scientific name and filter by plant type, such as flowers, shrubs, or trees.
+- **Campus Map:** Shows markers for plants and gardens. Selecting a marker shows what users can find there and links to the relevant profiles.
+- **Plant Detail Page:** Shows photos, plant names, campus locations, ecological or cultural significance, and care instructions with source links.
+- **My Saved Plants:** Lists a signed-in user’s favorite plants with links to their profiles and map locations.
+- **Admin Dashboard:** Lets admins add or edit plant profiles and manage where they appear on the map.
 
 ## Use Case Ideas
 
-- New user goes to landing page and browses the course directory without logging in.
-- New user goes to landing page, logs in, gets home page, sets up profile with completed courses and intended track.
-- Admin goes to landing page, logs in, gets home page, and edits courses, requirements, and FAQ entries.
-- User logs in and tells the assistant "I want 12 credits, mostly online, nothing before 10 a.m."; the assistant returns three conflict-free schedules on a weekly grid with links to each course, and the user saves one.
-- User goes to landing page, logs in, asks the assistant what they can take next semester, and receives a cited list of eligible courses.
-- User rates an answer thumbs down; admin sees the flagged question on the admin home page, corrects the FAQ entry, and the next user receives the corrected answer.
+- A student sees a flower near a building on the way to class, opens the campus map, and compares photos of plants listed nearby.
+- A visitor searches for a plant by its Hawaiian name and opens its profile to see where it grows on campus.
+- A user looking for a plant to grow at home compares the sunlight, watering, and soil needs of two plants, then saves one to their favorites.
+- An admin verifies that a plant is growing in a second campus garden and adds that location to its existing profile.
+- An admin updates a plant’s care instructions and adds a source link so users can read more.
 
 ## Beyond the Basics
 
-After implementing the basic functionality, here are ideas for more advanced features:
-
-- Instructor reviews written by logged-in students and moderated by admins, so the assistant can factor in instructor ratings when ranking schedules (with a link-out to external review sites rather than scraping them).
-- Multi-semester plan generator that drafts a path to graduation from the student's profile and the requirement sheet.
-- Requirement checker that reports which BS or BA requirements a student's completed courses already satisfy.
-- "Email my advisor" button that pre-fills a message with a saved schedule and the student's open questions.
-- Trending-questions page showing what students are asking most each week.
-- Extending the section data to a second department once the ICS version is stable.
+- **Self-guided plant walks** that connect several plant locations along a short campus route.
+- **QR codes** that open a plant’s profile from a sign, if campus partners approve their placement.
+- **Community submissions** that let signed-in users suggest new sightings or location corrections for admins to review.
+- **Care reminders** that let users set their own watering reminders for plants they’re growing.
+- **Plant care Q&A** that answers questions using the guide’s reviewed profiles and links users to the entries it used.
