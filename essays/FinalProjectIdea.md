@@ -12,7 +12,7 @@ labels:
   - ICS 314
 ---
 
-## Project: UH Botanical Finder (UHBNF)
+## Project: UH Flowers and Plants (UH FAPS)
 
 **Proposers:**
 
@@ -22,7 +22,7 @@ labels:
 
 ## Overview
 
-**The Problem:** Students and visitors may walk past native Hawaiian flowers, shrubs, and trees on and around the UH Mānoa campus without knowing their names, why they matter, or where to find them again. Even when someone recognizes a plant and wants to grow it at home, it can be hard to know how much sunlight and water it needs or what kind of soil it grows best in.
+**The Problem:** Students and visitors may walk past native Hawaiian flowers, shrubs, and trees on and around the UH Mānoa campus without knowing their names, why they matter, or where to find them again. Learning about Hawaii's indigenous plants and flowers is important to know, in order to preserve native culture. 90% of Hawaii's native flowering plants are endemic, and they exist only here. Even when someone recognizes a plant and wants to grow it at home, it can be hard to know how much sunlight and water it needs or what kind of soil it grows best in.
 
 **The Solution:** A web application with an interactive campus map and a searchable guide to native Hawaiian plants. Users can explore gardens and plant locations on and near campus, then open a plant profile to see photos, Hawaiian and scientific names, and a short explanation of the plant’s ecological or cultural significance. Each profile includes guidance on sunlight, watering, and soil. A student who spots a flower on the way to class can use the map to see what grows nearby, compare photos, and learn how to care for the plant at home.
 
@@ -30,9 +30,7 @@ labels:
 
 The site will use Next.js, React, Bootstrap 5, Prisma with PostgreSQL, and GitHub. The directory will use Bootstrap cards and filters to make plants easy to browse on a phone while walking around campus. Prisma will store plant profiles, observation locations, and user bookmarks. Each plant can appear at multiple locations, so admins can update its care instructions in one place.
 
-The project builds on the List Stuff, Add Stuff, and Edit Stuff pages from our ICS 314 Next.js exercises. We’ll adapt those patterns for the plant directory and admin forms, then use Playwright to test common actions such as searching for a plant, opening its profile, and editing a plant entry as an admin.
-
-For the first version, we’ll start with a small set of plants whose campus locations we can verify. Each profile will include a photo, plant names, care guidance, and links to the sources used. Visitors can browse the directory and map without logging in. Users who sign in can save plants they want to find or grow later.
+For the first version, we’ll start with a small set of plants whose campus locations we can verify. Each profile will include a photo, plant names, care guidance, and its cultural and historical significance, with links to the sources used. Visitors can browse the directory and map without logging in. Users who sign in can save plants they want to find or grow later.
 
 ## Roles
 
@@ -59,8 +57,8 @@ For the first version, we’ll start with a small set of plants whose campus loc
 
 ## Beyond the Basics
 
-- **Self-guided plant walks** that connect several plant locations along a short campus route.
-- **QR codes** that open a plant’s profile from a sign, if campus partners approve their placement.
+- **QR codes** that open a plant’s profile from a sign.
 - **Community submissions** that let signed-in users suggest new sightings or location corrections for admins to review.
 - **Care reminders** that let users set their own watering reminders for plants they’re growing.
 - **Plant care Q&A** that answers questions using the guide’s reviewed profiles and links users to the entries it used.
+- **Stories and Legends** of the plants and flowers and their role in the culture of indigenous Hawai'i.
